@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="Login_id">Username</string>
+    <string name="Login_pw">Password</string>
+    <string name="Login_btn">Login</string>
+    <string name="Register_cpw">Confirm Password</string>
+    <string name="Register_dName">Display name</string>
+    <string name="Register_btn">Register</string>
+    <string name="goToRegister">Register</string>
+    <string name="login">Login</string>
+    <string name="ContactAdd_add">Add</string>
+    <string name="friend_username">Friend Username</string>
+    <string name="friend_display_name">Friend display name</string>
+    <string name="friend_server">Friend server</string>
+    <string name="BaseUrl">https://10.0.2.2:7000/api/</string>
+</resources>

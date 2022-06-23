@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Login_id"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Login_pw"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/cpw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Register_cpw" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="@string/Register_dName"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/errors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/RegisterBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColorHint="@color/white"
+            android:hint="@string/Register_btn" />
+        <TextView
+            android:id="@+id/goToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:text="Go to Login" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
