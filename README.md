@@ -40,3 +40,6 @@ to start the chat app
 
 IMPORTANT NOTE : Our server runs on localhost 7000 . if somereason you change the server url on your pc , you need to update the variable called - serverUrl in App.js file , to make the app work.
 same logic to the rate app - you can change the <a HREF > at the bottom of the pages-Chat.js, Login.js and Register.js  
+  
+  YOU NEED TO REMOVE THE S IN THE HTTPS OF THE SERVER ADDRESS SO IT'LL WORK WITH THE ANDROID 
+  AND THE SERVER URL IN APP.JS (LINE 184) TO BE WITHOUT THE S
