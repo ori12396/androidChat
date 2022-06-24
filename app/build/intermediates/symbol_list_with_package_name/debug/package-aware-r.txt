@@ -2458,6 +2458,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_avatar
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2518,6 +2519,7 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Contacts
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2602,6 +2604,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avatar
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2617,7 +2620,6 @@ id btnAdd
 id btnLogin
 id buttonPanel
 id cBtnAdd
-id cList
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2767,6 +2769,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id last
 id layout
 id left
 id leftToRight
@@ -2843,6 +2846,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nickname
 id noScroll
 id noState
 id none
@@ -3114,6 +3118,7 @@ layout activity_clist
 layout activity_contact_add
 layout activity_main
 layout activity_register
+layout contact_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
