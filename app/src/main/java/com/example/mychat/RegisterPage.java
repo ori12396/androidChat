@@ -47,30 +47,30 @@ public class RegisterPage extends AppCompatActivity {
             startActivity(i);
         });
         RegisterBtn.setOnClickListener(view -> {
-            EditText id=findViewById(R.id.id);
-            String uId=id.getText().toString();
+            EditText Id=findViewById(R.id.id);
+            String id=Id.getText().toString();
             EditText pw=findViewById(R.id.pw);
-            String upw=pw.getText().toString();
+            String password=pw.getText().toString();
             EditText cpw=findViewById(R.id.cpw);
             String ucpw=cpw.getText().toString();
             EditText display=findViewById(R.id.editTextTextPersonName);
-            String udn=display.getText().toString();
+            String nickname=display.getText().toString();
             TextView errors=findViewById(R.id.errors);
 
-            if (uId.equals("")||upw.equals("")||ucpw.equals("")||udn.equals("")){
+            if (id.equals("")||password.equals("")||ucpw.equals("")||nickname.equals("")){
                 errors.setText("empty fields!");
                 return;
             }
-            if (!checkValid(upw)){
+            if (!checkValid(password)){
                 errors.setText("make sure you password contains both num and letters.");
                 return;
             }
-            if (!upw.equals(ucpw)){
+            if (!password.equals(ucpw)){
                 errors.setText("Please make sure your pw and cpw are the same");
                 return;
             }
 
-            Register register=new Register(uId,udn,upw);
+            Register register=new Register(id,nickname,password);
             Call<Void> call= webApi.Register(register);
             call.enqueue(new Callback<Void>() {
                 @Override
@@ -78,7 +78,7 @@ public class RegisterPage extends AppCompatActivity {
                     int x= response.code();
                     if (response.code()==200){
                         Intent intent=new Intent(RegisterPage.this,MainActivity.class);
-                        intent.putExtra("current_username",id.getText());
+                        //intent.putExtra("current_username",Id.getText());
                         startActivity(intent);
                     }
                 }

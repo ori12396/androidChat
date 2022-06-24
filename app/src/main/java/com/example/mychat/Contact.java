@@ -58,9 +58,9 @@ public class Contact {
     public Contact(String id, String name, String last, String lastdate ,String server) {
         this.id = id;
         this.name = name;
+        this.server=server;
         this.last = last;
         this.lastdate = lastdate;
-        this.server=server;
     }
     public Contact(String id, String name,String server) {
         this.id = id;

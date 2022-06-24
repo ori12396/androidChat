@@ -12,5 +12,5 @@
     <string name="friend_username">Friend Username</string>
     <string name="friend_display_name">Friend display name</string>
     <string name="friend_server">Friend server</string>
-    <string name="BaseUrl">https://10.0.2.2:7000/api/</string>
+    <string name="BaseUrl">http://10.0.2.2:7000/api/</string>
 </resources>

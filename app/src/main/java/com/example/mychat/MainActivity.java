@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onResponse(Call<Void> call, Response<Void> response) {
                     if (response.code()==200){
                         Intent intent=new Intent(MainActivity.this,Clist.class);
+                        textView.setText("goooooooodddddd");
+                        intent.putExtra("id",uid);
                         startActivity(intent);
                     }else {
                         textView.setText("Wrong id or pw");
