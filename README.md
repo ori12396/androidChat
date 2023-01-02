@@ -1,6 +1,5 @@
 # androidChat
- **היי
-היי הייתה לאחד השותפים התפרצות של קורונה במשפחה ומדובר בקבוצת סיכון גבוהה והדבר גזל הרבה כוחות וזמן יקר, שלחנו מייל מפורט יותר למתרגלים נודה להתחשבותכם :)
+
 Welcome to our chat app!
 
 This is an online chatting application that you can use to interact with your friends !
